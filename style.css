@@ -279,6 +279,12 @@ i {
   margin: 5px;
 }
 
+i:hover {
+  pointer-events: auto;
+  background-color: rgb(88, 88, 88);
+  transition: 0.3s;
+}
+
 ::placeholder {
   color: #a8a7a7;
 }
@@ -316,14 +322,17 @@ button {
   max-width: 100%;
   align-items: center;
   row-gap: 40px;
-  margin: 0 auto;
+  margin: 25px auto 0 auto;
 }
 
+.header {
+  padding: 0 0 0 45px;
+}
 .header,
 .main {
-  padding: 30px 30px 0 30px;
   max-width: 900px;
 }
+
 .main {
   display: flex;
   flex-wrap: wrap;
